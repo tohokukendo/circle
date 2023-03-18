@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>東北大学剣道サークル</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="東北大学剣道サークルのホームページ">
+    <link rel="stylesheet" href="css/style.css">
+    </div>
+
+</head>
+
+<body>
+
+    <div id="container">
+
+        <div id="langChenge">
+            <input type="radio" name="land" id="langJa" checked>
+            <input type="radio" name="land" id="langEn">
+            <input type="radio" name="land" id="langZh">
+
+            <label for="langJa">
+                <span lang="ja">Japanese</span>
+                <span lang="en">Japanese</span>
+                <span lang="zh">日本</span>
+            </label>
+            <label for="langEn">
+                <span lang="ja">English</span>
+                <span lang="en">English</span>
+                <span lang="zh">英语</span>
+            </label>
+
+            <header lang="ja">
+                <h1 id="logo"><a href="index.html">東北大学<br class="br-sp">剣道サークル</a></h1>
+            </header>
+
+            <header lang="en">
+                <h1 id="logo"><a href="index.html">東北大学<br class="br-sp">剣道サークル</a></h1>
+            </header>
+
+            <!--メインメニュー-->
+            <nav id="menubar" lang="ja">
+                <ul>
+                    <li><a href="index.html">ホーム</a></li>
+                    <li><a href="planning.html">予定表</a></li>
+                    <li><a href="place.html">稽古場所</a></li>
+                    <li><a href="contact.html">お問い合わせ</a></li>
+                </ul>
+            </nav>
+
+            <nav id="menubar" lang="en">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="planning.html">SCHEDULE</a></li>
+                    <li><a href="place.html">PLACE</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+
+
+            <!--スライドショー（slick）-->
+            <div class="mainimg" lang="ja">
+                <div><img src="images/kendo1.jpg" class="kendo3" alt=""></div>
+                <div><img src="images/kendo2.jpg" class="kendo3" alt=""></div>
+                <div><img src="images/kendo4.jpg" class="kendo3" alt=""></div>
+            </div>
+
+            <div class="mainimg" lang="en">
+                <div><img src="images/kendo1.jpg" class="kendo3" alt=""></div>
+                <div><img src="images/kendo2.jpg" class="kendo3" alt=""></div>
+                <div><img src="images/kendo5.jpg" class="kendo3" alt=""></div>
+            </div>
+
+            <main lang="ja">
+
+                <section>
+                    <h2>サークル紹介</h2>
+                    <p lang="ja">東北大学公式の剣道サークルです。活動は基本自由のため、自分のペースで活動に参加することができます。初心者から高校までやっていた人まで幅広く、
+                        練習はその日のメンバーで決めて厳しく行ったりゆるく行ったりしています。稽古は基本２時間で、準備運動をしてから基本打ちを行い、休憩をはさんでから地稽古をして終わります。
+                        ちょうどよく汗をかくことができるため、運動不足の大学生にはちょうどよいと思います。程よく剣道がしたい方、是非見学に来てください！
+                    </p>
+                </section>
+
+                <section>
+                    <h2>お知らせ</h2>
+                    <dl id="new">
+                        <dt>2022/11/06</dt>
+                        <dd>芋煮会を実施しました！！</dd>
+                        <dt>2021/10/05</dt>
+                        <dd>垂れネームを作りました～</dd>
+                        <dt>2021/06/15</dt>
+                        <dd>稽古に参加される方は面マスクを忘れずに！！</dd>
+                        <dt>2020/10/29</dt>
+                        <dd>飲食以外の新歓が可能になりました！</dd>
+                    </dl>
+                </section>
+
+
+            </main>
+
+            <main lang="en">
+
+                <section>
+                    <h2>About us</h2>
+                    <p lang="en">We are an official Kendo club at Tohoku University. In this club, you can enjoy playing Kendo at your own pace since you can join the activity when you want to. 
+                        We have various participants, ranging from those who have played Kendo since childhood to those who just started after university. The practice hours are usually around 2 hours, 
+                        doing warm-ups, basic practice, and practice matches. If you need more exercise but are busy, I recommend you join us as we enjoy playing kendo but not so seriously. 
+                        If you have any interest in our club, please visit us!
+                    </p>
+                </section>
+
+                <section>
+                    <h2>Information</h2>
+                    <dl id="new">
+                        <dt>2022/11/06</dt>
+                        <dd>We held "imonikai"!</dd>
+                        <dt>2021/10/05</dt>
+                        <dd>We made hanging name.</dd>
+                        <dt>2021/06/15</dt>
+                        <dd>If you're attending the practice, don't forget your mask!</dd>
+                        <dt>2020/10/29</dt>
+                        <dd>Now you can have a new welcome that doesn't involve food and drink!</dd>
+                    </dl>
+                </section>
+
+
+            </main>
+
+
+        </div>
+    </div>
+    <!--/#container-->
+
+    <!--jQueryファイルの読み込み-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+
+    <!--スライドショー（slick）-->
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/slick.js"></script>
+
+    <!--ページの上部へ戻るボタンとスクリプト-->
+    <p class="pagetop"><a href="#">↑</a></p>
+    <script src="js/openclose_tp.js"></script>
+
+    <footer>
+        <small>Copyright&copy; <a href="index.html">Sample Company</a> All Rights Reserved.</small>
+        <span class="pr"><a href="https://template-party.com/" target="_blank">《Web
+                Design:Template-Party》</a></span>
+    </footer>
+
+</body>
+
+</html>
